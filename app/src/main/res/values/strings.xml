@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">Photo Stretching Tool</string>
+    <string name="theme_menu">Тема</string>
+    <string name="theme_menu_with_value">Тема: %1$s</string>
+    <string name="theme_selected">✓ %1$s</string>
+    <string name="theme_current">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="theme_burgundy">Бордовая</string>
+    <string name="image_section">Изображение</string>
+    <string name="current_size_label">Текущий размер:</string>
+    <string name="not_selected">Не выбрано</string>
+    <string name="percent_100">100%</string>
+    <string name="percent_value">%1$d%%</string>
+    <string name="number_value">%1$d</string>
+    <string name="size_info">Исходный: %1$d×%2$d px
+Текущий: %3$d×%4$d px</string>
+    <string name="width_stretch">Растягивание по ширине:</string>
+    <string name="height_stretch">Растягивание по высоте:</string>
+    <string name="new_size_pixels">Новый размер (пиксели):</string>
+    <string name="width">Ширина:</string>
+    <string name="height">Высота:</string>
+    <string name="pixels_hint">px</string>
+    <string name="load_image">Загрузить фото</string>
+    <string name="save_image">Сохранить</string>
+    <string name="share_image">Поделиться</string>
+    <string name="apply_size">Применить размер</string>
+    <string name="save_success">Файл сохранён</string>
+    <string name="load_error">Не удалось загрузить изображение</string>
+    <string name="save_error">Не удалось сохранить изображение</string>
+    <string name="share_error">Не удалось подготовить изображение</string>
+    <string name="no_image_save">Нет изображения для сохранения</string>
+    <string name="no_image_share">Нет изображения для отправки</string>
+    <string name="invalid_size">Введите корректные положительные числа</string>
+    <string name="image_too_large">Размер изображения слишком большой</string>
+    <string name="image_not_supported">Файл не содержит поддерживаемого изображения</string>
+    <string name="share_chooser">Поделиться изображением</string>
 </resources>

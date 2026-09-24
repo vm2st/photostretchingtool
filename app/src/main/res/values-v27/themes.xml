@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.PhotoStretchingTool" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Theme.PhotoStretchingTool.Burgundy" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

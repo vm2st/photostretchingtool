@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="screen_background">#171414</color>
+    <color name="image_surface">#282020</color>
+    <color name="text_primary">#FFF4F1</color>
+    <color name="text_secondary">#D8C9C5</color>
+    <color name="toolbar_surface">#211B1B</color>
+    <color name="toolbar_icon">#FFF4F1</color>
+    <color name="button_load">#357A4A</color>
+    <color name="button_save">#356FA4</color>
+    <color name="button_share">#7E2C91</color>
+    <color name="button_apply">#A76500</color>
+    <color name="primary">#B48CFF</color>
+    <color name="primary_dark">#7B4FCE</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#171414</color>
+</resources>

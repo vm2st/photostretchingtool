@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="psAppBackground" format="color" />
+    <attr name="psImageSurface" format="color" />
+    <attr name="psTextPrimary" format="color" />
+    <attr name="psTextSecondary" format="color" />
+    <attr name="psToolbarSurface" format="color" />
+    <attr name="psButtonLoad" format="color" />
+    <attr name="psButtonSave" format="color" />
+    <attr name="psButtonShare" format="color" />
+    <attr name="psButtonApply" format="color" />
+</resources>

@@ -1,16 +1,62 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.PhotoStretchingTool" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+<resources>
+    <!-- Existing white appearance remains the default. -->
+    <style name="Theme.PhotoStretchingTool" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="psAppBackground">#F5F5F5</item>
+        <item name="psImageSurface">#FFFFFFFF</item>
+        <item name="psTextPrimary">#000000</item>
+        <item name="psTextSecondary">#555555</item>
+        <item name="psToolbarSurface">#FFFFFFFF</item>
+        <item name="psButtonLoad">#4CAF50</item>
+        <item name="psButtonSave">#2196F3</item>
+        <item name="psButtonShare">#9C27B0</item>
+        <item name="psButtonApply">#FF9800</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
         <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <item name="colorSecondary">@color/primary</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">@color/screen_background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/screen_background</item>
+    </style>
+
+    <style name="Theme.PhotoStretchingTool.Burgundy" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="psAppBackground">#FFF8F7</item>
+        <item name="psImageSurface">#FFFFFFFF</item>
+        <item name="psTextPrimary">#2D1515</item>
+        <item name="psTextSecondary">#6E5555</item>
+        <item name="psToolbarSurface">#FFF1EF</item>
+        <item name="psButtonLoad">#892929</item>
+        <item name="psButtonSave">#6F2020</item>
+        <item name="psButtonShare">#9B3D3D</item>
+        <item name="psButtonApply">#A95024</item>
+        <item name="colorPrimary">#892929</item>
+        <item name="colorPrimaryVariant">#681D1D</item>
+        <item name="colorOnPrimary">#FFFFFFFF</item>
+        <item name="colorSecondary">#892929</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">#FFF8F7</item>
+        <item name="android:statusBarColor">#681D1D</item>
+        <item name="android:navigationBarColor">#FFF8F7</item>
+    </style>
+
+    <style name="Theme.PhotoStretchingTool.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="psAppBackground">#171414</item>
+        <item name="psImageSurface">#282020</item>
+        <item name="psTextPrimary">#FFF4F1</item>
+        <item name="psTextSecondary">#D8C9C5</item>
+        <item name="psToolbarSurface">#211B1B</item>
+        <item name="psButtonLoad">#357A4A</item>
+        <item name="psButtonSave">#356FA4</item>
+        <item name="psButtonShare">#7E2C91</item>
+        <item name="psButtonApply">#A76500</item>
+        <item name="colorPrimary">#B96C6C</item>
+        <item name="colorPrimaryVariant">#892929</item>
+        <item name="colorOnPrimary">#1D1515</item>
+        <item name="colorSecondary">#B96C6C</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">#171414</item>
+        <item name="android:statusBarColor">#171414</item>
+        <item name="android:navigationBarColor">#171414</item>
     </style>
 </resources>
